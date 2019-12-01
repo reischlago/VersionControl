@@ -10,7 +10,5 @@ namespace version_control_feladat.entities
     {
         public Guid ID { get; set; } = Guid.NewGuid();
         public string FullName { get; set; }
-        }
-
     }
 }
