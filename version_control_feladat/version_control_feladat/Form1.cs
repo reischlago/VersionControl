@@ -27,7 +27,8 @@ namespace version_control_feladat
 
             var u = new User()
             {
-                LasName = textBox1.Text, FirstName = textBox2.Text
+                LasName = textBox1.Text,
+                FirstName = textBox2.Text
             };
             users.Add(u);
         }
